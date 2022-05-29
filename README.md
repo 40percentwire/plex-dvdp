@@ -28,7 +28,7 @@ ffmpeg
 ```curl -L https://raw.githubusercontent.com/40percentwire/plex-dvdp/main/plex-dvdp.sh && sudo chmod +x plex-dvdp.sh && sudo chown root:wheel plex-dvdp.sh && sudo mv plex-dvdp.sh /usr/local/bin```
 
 ### Known Issues
-You may encounter issues with files that were downloaded from the internet on your Mac. If you are having difficulty running these programs after install, navigate in Finder to /usr/local/bin. Press Ctrl and right-click on both `mp4dovi`. Select "Open" in the context menu. Repeat this step for `plex-dvdp.sh`. This process may open a terminal window with output, but this should have no effect because both programs require input. Subsequent runs will then be allowed.
+You may encounter issues with files that were downloaded from the internet on your Mac. If you are having difficulty running these programs after install, navigate in Finder to /usr/local/bin. Press Ctrl and right-click on `mp4dovi`. Select "Open" in the context menu. Repeat this step for `plex-dvdp.sh`. This process may open a terminal window with output, but this should have no effect because both programs require input. Subsequent runs will then be allowed.
 
 ## Special Thanks
 [Volts](https://forums.plex.tv/u/volts/summary)
