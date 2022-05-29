@@ -3,7 +3,7 @@ if [ $# != 1 ]; then
     printf "Usage: %s container\n" "$(basename "$0")"
     exit 1
 else
-    container=$1
+    container="$1"
     for unfixed in *".${container}"
     do
         printf "Processing %s\n" "${unfixed}"
